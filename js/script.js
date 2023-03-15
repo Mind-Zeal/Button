@@ -1,7 +1,7 @@
 $( document ).ready(function() {
 	var arrow = $(".arrow"),
 		button = $(".wave-btn");
-		pos = $('.wave__container').height() * 2;
+		pos = $('.wave__container').height() * 3;
 	arrow.click(function() {
 		window.scrollTo({
 			top: pos,
